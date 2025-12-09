@@ -52,7 +52,7 @@ You must have the following tools installed directly on your system:
 3.  **Set up environment variables:**
     Copy the example environment file. The default settings with SQLite should work out of the box for local development. You will still need to add GitHub API keys to enable login.
     ```bash
-    cp .env.example .env
+    cp backend/.env.example backend/.env
     ```
     To get your GitHub keys, create a new GitHub OAuth App in your developer settings.
 
