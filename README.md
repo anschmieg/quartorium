@@ -71,10 +71,10 @@ Note: For the backend to start successfully you must set the GitHub OAuth enviro
         ```bash
         npm run start:frontend
         ```
-        This will start the React development server, typically on `http://localhost:3000`.
+        This will start the React development server on `http://localhost:5173`.
 
 5.  **Open the app:**
-    Navigate to `http://localhost:3000` in your web browser.
+    Navigate to `http://localhost:5173` in your web browser.
 
 ### Scripts
 
