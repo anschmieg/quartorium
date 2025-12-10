@@ -56,6 +56,8 @@ You must have the following tools installed directly on your system:
     ```
     To get your GitHub keys, create a new GitHub OAuth App in your developer settings.
 
+Note: For the backend to start successfully you must set the GitHub OAuth environment variables in backend/.env (GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET). If these are not present the authentication routes will fail and the app may not start depending on your local configuration.
+
 4.  **Run the application:**
     You will need two separate terminal windows or tabs.
 
